@@ -451,7 +451,10 @@
     "city_name0": "SEATTLE",
     "airline_code0": "CO"
   },
-  "96": {},
+  "96": {
+    "city_name0": "PITTSBURGH",
+    "city_name1": "DENVER"
+  },
   "97": {
     "city_name0": "DENVER",
     "city_name1": "PITTSBURGH"
@@ -697,7 +700,10 @@
     "city_name1": "WASHINGTON",
     "city_name0": "BOSTON"
   },
-  "149": {},
+  "149": {
+    "departure_time0": "0",
+    "departure_time1": "800"
+  },
   "150": {
     "city_name0": "PITTSBURGH"
   },
@@ -1250,7 +1256,9 @@
     "city_name0": "DENVER",
     "city_name1": "OAKLAND"
   },
-  "262": {},
+  "262": {
+    "economy0": "YES"
+  },
   "263": {
     "class_type0": "COACH",
     "city_name2": "DENVER",
@@ -1611,7 +1619,16 @@
     "city_name1": "SEATTLE",
     "city_name0": "CHICAGO"
   },
-  "334": {},
+  "334": {
+    "departure_time0": "1000",
+    "departure_time1": "0",
+    "day_number0": "27",
+    "month_number0": "8",
+    "year0": "1991",
+    "airline_code0": "CO",
+    "city_name0": "CHICAGO",
+    "city_name1": "SEATTLE"
+  },
   "335": {
     "airport_name0": "LESTER PEARSON"
   },
@@ -1620,7 +1637,9 @@
     "city_name1": "DENVER",
     "city_name0": "PITTSBURGH"
   },
-  "337": {},
+  "337": {
+    "round_trip_required0": "NO"
+  },
   "338": {
     "city_name1": "BOSTON",
     "city_name0": "ATLANTA"
@@ -1758,7 +1777,11 @@
     "departure_time0": "1200",
     "meal_description0": "BREAKFAST"
   },
-  "368": {},
+  "368": {
+    "city_name0": "BOSTON",
+    "city_name1": "BALTIMORE",
+    "round_trip_required0": "NO"
+  },
   "369": {
     "state_code0": "DC",
     "state_name0": "MINNESOTA"
@@ -1984,7 +2007,9 @@
     "airline_code0": "CO",
     "departure_time0": "1200"
   },
-  "415": {},
+  "415": {
+    "city_name0": "ATLANTA"
+  },
   "416": {
     "city_name1": "BOSTON",
     "city_name0": "DALLAS",
@@ -3396,7 +3421,10 @@
     "city_name0": "BOSTON",
     "airport_name0": "STAPLETON"
   },
-  "695": {},
+  "695": {
+    "departure_time0": "730",
+    "departure_time1": "630"
+  },
   "696": {
     "class_type0": "FIRST",
     "city_name1": "NEW YORK",
@@ -3540,104 +3568,664 @@
     "month_number0": "5",
     "day_number0": "7"
   },
-  "725": {},
-  "726": {},
-  "727": {},
-  "728": {},
-  "729": {},
-  "730": {},
-  "731": {},
-  "732": {},
-  "733": {},
-  "734": {},
-  "735": {},
-  "736": {},
-  "737": {},
-  "738": {},
-  "739": {},
-  "740": {},
-  "741": {},
-  "742": {},
-  "743": {},
-  "744": {},
-  "745": {},
-  "746": {},
-  "747": {},
-  "748": {},
-  "749": {},
-  "750": {},
-  "751": {},
-  "752": {},
-  "753": {},
-  "754": {},
-  "755": {},
-  "756": {},
-  "757": {},
-  "758": {},
-  "759": {},
-  "760": {},
-  "761": {},
-  "762": {},
-  "763": {},
-  "764": {},
-  "765": {},
-  "766": {},
-  "767": {},
-  "768": {},
-  "769": {},
-  "770": {},
-  "771": {},
-  "772": {},
-  "773": {},
-  "774": {},
-  "775": {},
-  "776": {},
-  "777": {},
-  "778": {},
-  "779": {},
-  "780": {},
-  "781": {},
-  "782": {},
-  "783": {},
-  "784": {},
-  "785": {},
-  "786": {},
-  "787": {},
-  "788": {},
-  "789": {},
-  "790": {},
-  "791": {},
-  "792": {},
-  "793": {},
-  "794": {},
-  "795": {},
-  "796": {},
-  "797": {},
-  "798": {},
-  "799": {},
-  "800": {},
-  "801": {},
-  "802": {},
-  "803": {},
-  "804": {},
-  "805": {},
-  "806": {},
-  "807": {},
-  "808": {},
-  "809": {},
-  "810": {},
-  "811": {},
-  "812": {},
-  "813": {},
-  "814": {},
-  "815": {},
-  "816": {},
-  "817": {},
-  "818": {},
-  "819": {},
-  "820": {},
-  "821": {},
-  "822": {},
-  "823": {},
-  "824": {}
+  "725": {
+    "city_name0": "WASHINGTON",
+    "day_number0": "26",
+    "month_number0": "7",
+    "year0": "1991",
+    "city_name1": "MONTREAL",
+    "round_trip_required0": "NO",
+    "city_name2": "BOSTON"
+  },
+  "726": {
+    "city_name0": "DALLAS"
+  },
+  "727": {
+    "city_name0": "SAN FRANCISCO",
+    "city_name1": "BOSTON"
+  },
+  "728": {
+    "day_number0": "24",
+    "month_number0": "5",
+    "year0": "1991",
+    "flight_number0": "415",
+    "city_name0": "KANSAS CITY",
+    "city_name1": "CHICAGO",
+    "departure_time0": "601",
+    "departure_time1": "1759",
+    "airline_code0": "UA"
+  },
+  "729": {
+    "day_number0": "27",
+    "month_number0": "12",
+    "year0": "1991",
+    "city_name0": "ORLANDO",
+    "city_name1": "INDIANAPOLIS"
+  },
+  "730": {
+    "city_name0": "TAMPA",
+    "city_name1": "MIAMI",
+    "state_name0": "FLORIDA",
+    "round_trip_required0": "NO"
+  },
+  "731": {
+    "city_name0": "BOSTON",
+    "day_number0": "20",
+    "month_number0": "1",
+    "year0": "1991",
+    "city_name1": "DALLAS"
+  },
+  "732": {
+    "city_name0": "WASHINGTON"
+  },
+  "733": {
+    "city_name0": "MIAMI",
+    "day_number0": "25",
+    "month_number0": "6",
+    "year0": "1991",
+    "city_name1": "NEW YORK"
+  },
+  "734": {
+    "city_name0": "SAN FRANCISCO",
+    "airline_code0": "UA"
+  },
+  "735": {
+    "airport_code0": "MKE"
+  },
+  "736": {
+    "city_name0": "CLEVELAND",
+    "city_name1": "MIAMI",
+    "class_type0": "FIRST",
+    "airline_code0": "US"
+  },
+  "737": {
+    "airline_code0": "AA",
+    "airline_code1": "DL",
+    "city_name0": "BALTIMORE",
+    "city_name1": "DALLAS FORT WORTH"
+  },
+  "738": {
+    "departure_time0": "1000",
+    "departure_time1": "0",
+    "meal_description0": "BREAKFAST",
+    "city_name0": "SAN FRANCISCO",
+    "city_name1": "DENVER"
+  },
+  "739": {
+    "arrival_time0": "1600",
+    "city_name0": "MIAMI",
+    "city_name1": "CLEVELAND",
+    "airline_code0": "US"
+  },
+  "740": {
+    "city_name0": "WASHINGTON",
+    "city_name1": "DENVER",
+    "connections0": "0"
+  },
+  "741": {
+    "arrival_time0": "41",
+    "time_elapsed0": "60",
+    "day_number0": "23",
+    "month_number0": "4",
+    "year0": "1991",
+    "city_name0": "WASHINGTON",
+    "city_name1": "DENVER",
+    "city_name2": "MIAMI"
+  },
+  "742": {
+    "city_name0": "DENVER",
+    "city_name1": "PHILADELPHIA",
+    "flight_number0": "270",
+    "airline_code0": "UA"
+  },
+  "743": {
+    "city_name0": "DALLAS",
+    "departure_time0": "1200",
+    "city_name1": "PHILADELPHIA",
+    "airline_code0": "AA"
+  },
+  "744": {
+    "arrival_time0": "41",
+    "time_elapsed0": "60",
+    "day_number0": "27",
+    "month_number0": "8",
+    "year0": "1991",
+    "city_name0": "CHICAGO",
+    "airline_code0": "CO"
+  },
+  "745": {
+    "airport_code0": "OAK",
+    "city_name0": "DENVER",
+    "city_name1": "BOSTON",
+    "airline_code0": "AA"
+  },
+  "746": {
+    "city_name0": "SAN FRANCISCO",
+    "city_name1": "DENVER",
+    "city_name2": "BALTIMORE",
+    "city_name3": "WASHINGTON"
+  },
+  "747": {
+    "city_name0": "DENVER",
+    "city_name1": "BALTIMORE",
+    "class_type0": "FIRST",
+    "airline_code0": "UA"
+  },
+  "748": {
+    "city_name0": "DALLAS FORT WORTH",
+    "city_name1": "WASHINGTON",
+    "city_name2": "BALTIMORE",
+    "day_number0": "23",
+    "month_number0": "7",
+    "year0": "1991"
+  },
+  "749": {
+    "city_name0": "CLEVELAND",
+    "city_name1": "MIAMI",
+    "class_type0": "FIRST",
+    "airline_code0": "US"
+  },
+  "750": {
+    "airport_code0": "BWI",
+    "city_name0": "DENVER",
+    "airline_code0": "UA"
+  },
+  "751": {
+    "city_name0": "ATLANTA",
+    "arrival_time0": "1800",
+    "city_name1": "BOSTON",
+    "departure_time0": "1200",
+    "departure_time1": "1800",
+    "stops0": "0"
+  },
+  "752": {
+    "city_name0": "DALLAS",
+    "stops0": "1",
+    "city_name1": "PHILADELPHIA"
+  },
+  "753": {
+    "day_number0": "24",
+    "month_number0": "5",
+    "year0": "1991",
+    "departure_time0": "1200",
+    "city_name0": "PITTSBURGH",
+    "city_name1": "BOSTON"
+  },
+  "754": {
+    "city_name0": "SAN FRANCISCO",
+    "day_number0": "20",
+    "month_number0": "9",
+    "year0": "1991",
+    "city_name1": "PHILADELPHIA",
+    "departure_time0": "0",
+    "departure_time1": "1200",
+    "airline_code0": "UA"
+  },
+  "755": {
+    "airline_code0": "CO",
+    "day_number0": "26",
+    "month_number0": "7",
+    "year0": "1991",
+    "departure_time0": "0",
+    "departure_time1": "800",
+    "city_name0": "CHICAGO"
+  },
+  "756": {
+    "day_number0": "20",
+    "month_number0": "1",
+    "year0": "1991",
+    "flight_number0": "766",
+    "flight_number1": "497",
+    "stops0": "1",
+    "city_name0": "MILWAUKEE",
+    "city_name1": "ST. PETERSBURG",
+    "airline_code0": "TW",
+    "departure_time0": "0",
+    "departure_time1": "1200"
+  },
+  "757": {
+    "city_name0": "NEW YORK",
+    "departure_time0": "718",
+    "city_name1": "LAS VEGAS",
+    "airline_code0": "TW"
+  },
+  "758": {
+    "city_name0": "DALLAS FORT WORTH",
+    "city_name1": "SAN FRANCISCO",
+    "city_name2": "OAKLAND",
+    "connections0": "0"
+  },
+  "759": {
+    "city_name0": "DENVER",
+    "city_name1": "DALLAS",
+    "state_name0": "COLORADO",
+    "state_name1": "TEXAS",
+    "departure_time0": "1200",
+    "departure_time1": "1800"
+  },
+  "760": {
+    "city_name0": "DENVER",
+    "day_number0": "12",
+    "month_number0": "10",
+    "year0": "1991",
+    "city_name1": "ATLANTA",
+    "round_trip_required0": "NO"
+  },
+  "761": {
+    "city_name0": "BALTIMORE",
+    "city_name1": "DALLAS"
+  },
+  "762": {
+    "day_name0": "MONDAY",
+    "day_name1": "TUESDAY",
+    "arrival_time0": "1200",
+    "city_name0": "PHILADELPHIA",
+    "city_name1": "BOSTON",
+    "round_trip_required0": "NO"
+  },
+  "763": {
+    "airport_code0": "BWI",
+    "city_name0": "OAKLAND",
+    "departure_time0": "1200",
+    "departure_time1": "1800",
+    "stops0": "0"
+  },
+  "764": {
+    "airline_code0": "AA",
+    "year0": "1991",
+    "month_number0": "7",
+    "day_number0": "26",
+    "city_name0": "PHOENIX",
+    "city_name1": "MILWAUKEE"
+  },
+  "765": {
+    "city_name0": "SAN FRANCISCO",
+    "departure_time0": "1000",
+    "city_name1": "DENVER",
+    "airline_code0": "UA"
+  },
+  "766": {
+    "arrival_time0": "41",
+    "time_elapsed0": "60",
+    "day_name0": "THURSDAY",
+    "day_name1": "FRIDAY",
+    "arrival_time1": "2000",
+    "city_name0": "SAN FRANCISCO",
+    "city_name1": "BALTIMORE"
+  },
+  "767": {
+    "city_name0": "MIAMI",
+    "day_name0": "TUESDAY",
+    "city_name1": "NEW YORK",
+    "class_type0": "FIRST"
+  },
+  "768": {
+    "city_name0": "DALLAS",
+    "city_name1": "FORT WORTH",
+    "flight_number0": "852",
+    "city_name2": "SAN FRANCISCO",
+    "airline_code0": "DL"
+  },
+  "769": {
+    "city_name0": "BOSTON",
+    "city_name1": "ATLANTA",
+    "stops0": "0"
+  },
+  "770": {
+    "city_name0": "DALLAS",
+    "flight_number0": "417",
+    "city_name1": "CINCINNATI"
+  },
+  "771": {
+    "day_number0": "22",
+    "month_number0": "3",
+    "year0": "1991",
+    "city_name0": "ST. LOUIS",
+    "city_name1": "DENVER",
+    "departure_time0": "0",
+    "departure_time1": "1200"
+  },
+  "772": {
+    "day_number0": "23",
+    "month_number0": "4",
+    "year0": "1991",
+    "city_name0": "SALT LAKE CITY",
+    "city_name1": "OAKLAND"
+  },
+  "773": {
+    "day_number0": "23",
+    "month_number0": "4",
+    "year0": "1991",
+    "city_name0": "SALT LAKE CITY",
+    "city_name1": "OAKLAND"
+  },
+  "774": {
+    "departure_time0": "900",
+    "day_number0": "21",
+    "month_number0": "2",
+    "year0": "1991",
+    "city_name0": "INDIANAPOLIS",
+    "city_name1": "MILWAUKEE"
+  },
+  "775": {
+    "departure_time0": "1200",
+    "day_number0": "22",
+    "month_number0": "3",
+    "year0": "1991",
+    "city_name0": "CLEVELAND",
+    "city_name1": "INDIANAPOLIS"
+  },
+  "776": {
+    "departure_time0": "900",
+    "day_number0": "24",
+    "month_number0": "5",
+    "year0": "1991",
+    "city_name0": "SALT LAKE CITY",
+    "city_name1": "OAKLAND"
+  },
+  "777": {
+    "state_name0": "CALIFORNIA",
+    "state_name1": "NEVADA",
+    "state_name2": "ARIZONA"
+  },
+  "778": {
+    "state_name0": "ARIZONA"
+  },
+  "779": {
+    "city_name0": "NASHVILLE",
+    "state_name0": "TENNESSEE",
+    "city_name1": "SEATTLE"
+  },
+  "780": {
+    "economy0": "YES",
+    "city_name0": "MIAMI",
+    "city_name1": "NEW YORK"
+  },
+  "781": {
+    "city_name0": "TORONTO",
+    "city_name1": "ST. PETERSBURG",
+    "stops0": "0"
+  },
+  "782": {
+    "day_name0": "THURSDAY",
+    "round_trip_required0": "NO",
+    "day_name1": "FRIDAY",
+    "day_name2": "WEDNESDAY",
+    "day_name3": "TUESDAY",
+    "day_name4": "MONDAY",
+    "city_name0": "ORLANDO",
+    "city_name1": "MILWAUKEE"
+  },
+  "783": {
+    "city_name0": "LOS ANGELES"
+  },
+  "784": {
+    "airport_code0": "LGA",
+    "city_name0": "BURBANK"
+  },
+  "785": {
+    "day_number0": "21",
+    "month_number0": "2",
+    "year0": "1991",
+    "city_name0": "MEMPHIS",
+    "city_name1": "INDIANAPOLIS"
+  },
+  "786": {
+    "day_number0": "26",
+    "month_number0": "7",
+    "year0": "1991",
+    "city_name0": "CHARLOTTE",
+    "departure_time0": "1200",
+    "departure_time1": "1800"
+  },
+  "787": {
+    "city_name0": "CHARLOTTE"
+  },
+  "788": {
+    "city_name0": "TACOMA",
+    "city_name1": "ORLANDO",
+    "day_number0": "26",
+    "month_number0": "7",
+    "year0": "1991"
+  },
+  "789": {
+    "day_number0": "26",
+    "month_number0": "7",
+    "year0": "1991",
+    "fare_basis_code0": "Q",
+    "city_name0": "TACOMA",
+    "city_name1": "ORLANDO"
+  },
+  "790": {
+    "city_name0": "SEATTLE",
+    "city_name1": "SALT LAKE CITY",
+    "airline_code0": "DL"
+  },
+  "791": {
+    "city_name0": "SEATTLE",
+    "city_name1": "SALT LAKE CITY",
+    "airline_code0": "DL"
+  },
+  "792": {
+    "day_number0": "23",
+    "month_number0": "4",
+    "year0": "1991",
+    "city_name0": "MIAMI",
+    "city_name1": "CLEVELAND"
+  },
+  "793": {
+    "day_number0": "23",
+    "month_number0": "4",
+    "year0": "1991",
+    "city_name0": "MIAMI",
+    "city_name1": "CLEVELAND"
+  },
+  "794": {
+    "day_number0": "27",
+    "month_number0": "8",
+    "year0": "1991",
+    "city_name0": "CLEVELAND",
+    "city_name1": "MIAMI"
+  },
+  "795": {
+    "day_number0": "26",
+    "month_number0": "7",
+    "year0": "1991",
+    "city_name0": "SEATTLE",
+    "city_name1": "CHICAGO",
+    "departure_time0": "0",
+    "departure_time1": "800",
+    "stops0": "0"
+  },
+  "796": {
+    "day_number0": "26",
+    "month_number0": "7",
+    "year0": "1991",
+    "city_name0": "SEATTLE",
+    "city_name1": "CHICAGO",
+    "departure_time0": "0",
+    "departure_time1": "1200"
+  },
+  "797": {
+    "day_number0": "25",
+    "month_number0": "12",
+    "year0": "1991",
+    "city_name0": "ORLANDO",
+    "city_name1": "INDIANAPOLIS"
+  },
+  "798": {
+    "day_number0": "27",
+    "month_number0": "12",
+    "year0": "1991",
+    "city_name0": "ORLANDO",
+    "city_name1": "INDIANAPOLIS",
+    "round_trip_required0": "NO"
+  },
+  "799": {
+    "city_name0": "PITTSBURGH",
+    "city_name1": "CLEVELAND",
+    "one_direction_cost0": "200"
+  },
+  "800": {
+    "day_number0": "27",
+    "month_number0": "8",
+    "year0": "1991",
+    "city_name0": "LAS VEGAS",
+    "city_name1": "NEW YORK",
+    "city_name2": "MEMPHIS"
+  },
+  "801": {
+    "city_name0": "pittsburgh",
+    "city_name1": "los angeles",
+    "day_name0": "tuesday",
+    "departure_time0": "1200",
+    "departure_time1": "1800"
+  },
+  "802": {
+    "arrival_time0": "2000",
+    "arrival_time1": "1700",
+    "city_name0": "SAN FRANCISCO",
+    "city_name1": "BALTIMORE"
+  },
+  "803": {
+    "airline_code0": "NW",
+    "city_name0": "WASHINGTON",
+    "state_code0": "DC"
+  },
+  "804": {
+    "airline_code0": "NW",
+    "airport_code0": "IAD"
+  },
+  "805": {
+    "airline_code0": "FF",
+    "meal_description0": "SNACK"
+  },
+  "806": {
+    "departure_time0": "2100",
+    "departure_time1": "2000",
+    "city_name0": "DENVER"
+  },
+  "807": {
+    "city_name0": "DENVER"
+  },
+  "808": {
+    "arrival_time0": "2100",
+    "arrival_time1": "2000",
+    "city_name0": "DENVER",
+    "flight_days0": "DAILY"
+  },
+  "809": {
+    "arrival_time0": "2100",
+    "arrival_time1": "2000",
+    "city_name0": "DENVER",
+    "departure_time0": "2100",
+    "departure_time1": "2000"
+  },
+  "810": {
+    "arrival_time0": "1900",
+    "departure_time0": "1200",
+    "city_name0": "CHARLOTTE",
+    "city_name1": "CINCINNATI",
+    "stops0": "0"
+  },
+  "811": {
+    "day_number0": "22",
+    "month_number0": "3",
+    "year0": "1991",
+    "city_name0": "INDIANAPOLIS",
+    "state_name0": "INDIANA",
+    "city_name1": "SAN DIEGO",
+    "departure_time0": "1200",
+    "departure_time1": "1800"
+  },
+  "812": {
+    "departure_time0": "1619",
+    "city_name0": "BURBANK",
+    "city_name1": "CINCINNATI",
+    "airline_code0": "AA"
+  },
+  "813": {
+    "day_number0": "23",
+    "month_number0": "4",
+    "year0": "1991",
+    "city_name0": "CHICAGO",
+    "city_name1": "KANSAS CITY"
+  },
+  "814": {
+    "day_number0": "24",
+    "month_number0": "5",
+    "year0": "1991",
+    "city_name0": "ST. LOUIS",
+    "city_name1": "ST. PAUL",
+    "state_name0": "MINNESOTA"
+  },
+  "815": {
+    "day_number0": "25",
+    "month_number0": "6",
+    "year0": "1991",
+    "city_name0": "CHARLOTTE",
+    "state_name0": "NORTH CAROLINA",
+    "city_name1": "ST. LOUIS"
+  },
+  "816": {
+    "arrival_time0": "41",
+    "time_elapsed0": "60",
+    "day_number0": "26",
+    "month_number0": "7",
+    "year0": "1991",
+    "arrival_time1": "1800",
+    "airport_code0": "EWR",
+    "city_name0": "SALT LAKE CITY"
+  },
+  "817": {
+    "departure_time0": "1800",
+    "city_name0": "SAN JOSE",
+    "state_name0": "CALIFORNIA",
+    "city_name1": "CINCINNATI"
+  },
+  "818": {
+    "city_name0": "salt lake city",
+    "city_name1": "new york",
+    "day_name0": "saturday",
+    "arrival_time0": "1800"
+  },
+  "819": {
+    "arrival_time0": "1800",
+    "day_number0": "26",
+    "month_number0": "7",
+    "year0": "1991",
+    "city_name0": "NEW YORK",
+    "city_name1": "SALT LAKE CITY",
+    "airline_code0": "DL"
+  },
+  "820": {
+    "arrival_time0": "1900",
+    "day_number0": "26",
+    "month_number0": "5",
+    "year0": "1991",
+    "city_name0": "CHICAGO",
+    "city_name1": "KANSAS CITY"
+  },
+  "821": {
+    "day_number0": "17",
+    "month_number0": "5",
+    "year0": "1991",
+    "round_trip_required0": "NO",
+    "meal_description0": "DINNER",
+    "city_name0": "CHICAGO",
+    "city_name1": "WESTCHESTER COUNTY",
+    "city_name2": "ONTARIO"
+  },
+  "822": {
+    "city_name0": "ST. LOUIS",
+    "city_name1": "BURBANK",
+    "city_name2": "MILWAUKEE"
+  },
+  "823": {
+    "city_name0": "WESTCHESTER COUNTY"
+  },
+  "824": {
+    "city_name0": "CINCINNATI",
+    "city_name1": "NEW YORK"
+  }
 }
