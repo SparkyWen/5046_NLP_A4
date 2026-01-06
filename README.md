@@ -1,5 +1,5 @@
 # Summary
-This is a Natural Language Proessing assingment in which a natural language instruction is matched up to the appropriate SQL query. Classification.ipynb contain all the code for this part of the project, with the rest of the files being artifacts that are utilized in the second branch (which explores raw generation methods). Classification.ipynb contains four separate approaches; a linear model, a neural network, an LSTM, and a Transformer.
+This is a Natural Language Proessing assignment in which a natural language instruction is matched up to the appropriate SQL query. Classification.ipynb contain all the code for this part of the project, with the rest of the files being artifacts that are utilized in the second branch (which explores raw generation methods). Classification.ipynb contains four separate approaches; a linear model, a neural network, an LSTM, and a Transformer.
 
 # Results
 Results were 12.75% accuracy for the linear model, 15.2% accuracy for the Neural Network, 25.5% accuracy for the LSTM, and 44% for the Transformer.
