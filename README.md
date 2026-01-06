@@ -1,8 +1,8 @@
 # Summary
-This is a Natural Language Proessing assignment in which a natural language instruction is matched up to the appropriate SQL query. Classification.ipynb contain all the code for this part of the project, with the rest of the files being artifacts that are utilized in the second branch (which explores raw generation methods). Classification.ipynb contains four separate approaches; a linear model, a neural network, an LSTM, and a Transformer.
+This is a Natural Language Processing assignment in which a natural language instruction is matched up to the appropriate SQL query. Classification.ipynb contains all the code for this part of the project, with the rest of the files being artifacts that are utilized in the second branch (which explores raw generation methods). Classification.ipynb contains four separate approaches; a Linear Model, a Feed Forward NN, an LSTM, and a Transformer.
 
 # Results
-Results were 12.75% accuracy for the linear model, 15.2% accuracy for the Neural Network, 25.5% accuracy for the LSTM, and 44% for the Transformer.
+Results were 12.75% accuracy for the Linear Model, 15.2% accuracy for the Feed Forward NN, 25.5% accuracy for the LSTM, and 44% for the Transformer.
 
 ## Ideal blocks and hyper params for the Transformer Model
 We tested 3 values for each hyperparameter, small (2 heads and 1 block), medium (4 heads and 3 blocks), and large (8 heads and 6 blocks). We chose the large dimensions from the example given in the lecture. This gave us 9 separate transformer models, which we trained with a maximum epoch count of 3 and a stopping condition when the validation loss hasn’t improved for 3 epochs.
